@@ -1,0 +1,358 @@
+/*CSS*/
+@media screen and (min-width:1024px) and (max-width:1920px)
+{
+	body{
+	margin:0px;
+	padding:0px;
+	
+	}
+
+	a{
+		color:white;
+		text-decoration:none;
+	}
+
+	#main{
+		width:100%;
+		height:1800px;
+		margin:auto;
+
+	}
+
+	#banner{
+		width:100%;
+		height:180px;
+		position:fixed;
+		background-color:red;
+		float:left;
+
+	}
+
+	#nome{
+		width:400px;
+		height:100px;
+		float:right;
+		color:white;
+		text-align:center;
+		margin-right:800px;
+		margin-top:25px;
+
+	}
+
+	#nav{
+		width:1200px;
+		height:50px;
+		background-color:black;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:130px;
+
+	}
+
+	.item_menu{
+		color:white;
+		font-family:verdana;
+		text-align:center;
+		font-weight:bold;
+		padding-left:50px;
+		padding-top:auto;
+		padding-bottom:auto;
+		margin-left:120px;
+		margin-right:auto;
+		width:150px;
+		height:45px;
+		float:left;	
+
+	}
+
+	#subconteudo{
+		width:100%;
+		height:182px;
+
+	}
+
+	#header{
+		width:1200px;
+		height:1603px;
+		margin-left:auto;
+		margin-right:auto;
+
+	}
+
+	#img1{
+		width:1200px;
+		height:600px;
+		border:solid 1px;
+		background-image:url('../Imagens/uno_2017.jpg');
+		background-size:1200px;
+
+	}
+
+	#faixa{
+		width:1200px;
+		height:650px;
+
+	}
+
+	#faixa2{
+		width:1200px;
+		height:400px;
+
+	}
+
+	#img_uno{
+		width:500px;
+		height:350px;
+		background-image:url('../Imagens/uno.png');
+		float:left;
+
+	}
+
+	#txt_uno{
+		width:500px;
+		height:350px;
+		float:left;
+	}
+
+	#titulo_uno{
+		width:500px;
+		height:80px;
+		margin-top:20px;
+		font-family:verdana;
+		text-align:center;
+
+
+	}
+
+	#preco_uno{
+		width:500px;
+		height:80px;
+		margin-top:80px;
+		font-family:verdana;
+		text-align:center;
+
+	}
+
+	#faixa3{
+		width:1200px;
+		height:550px;
+		background-color:black;
+	}
+
+	#img-liveon{
+		width:600px;
+		height:400px;
+		background-image:url('../Imagens/liveon.png');
+		background-size:1200px;
+		margin-top:120px;
+		float: left;
+	}
+
+	#titulo{
+		margin-top:20px;
+		font-family:verdana;
+		width:450px;
+		height:100px;
+		float:right;
+		margin-right:0px;
+		text-align:justify;
+		color:white;
+
+	}
+
+	intem-menu:a{
+	 color: #ffffff;
+	 text-decoration:none;
+	}
+
+	#footer{
+		width:100%;
+		height:65px;
+		background-color:red;
+		text-align:center;
+		padding-top:15px;
+	}
+
+	#txt-rodape{
+		width:300px;
+		height:30px;
+		margin:auto;
+	}
+}
+
+@media screen and (min-width:320px) and (max-width:479px)
+{	
+	#nav{
+	width:100%;
+	height:50px;
+	background-color:black;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	}
+
+	body{
+	margin:0px;
+	padding:0px;
+	height:0px;
+	}
+
+	a{
+		color:white;
+		text-decoration:none;
+	}
+
+	#main{
+		width:100%;
+		height:1710px;
+		margin:auto;
+
+	}
+
+	#banner{
+		width:100%;
+		height:50px;
+		//border:solid 1px;
+		background-color:red;
+		float:left;
+
+	}
+
+	#nome{
+		width:200px;
+		height:50px;
+		float:right;
+		color:white;
+		text-align:center;
+		margin-right:60px;
+		margin-top:auto;
+		font-size: 10px;
+	}
+
+	.item_menu{
+		color:white;
+		font-family:verdana;
+		text-align:center;
+		font-weight:bold;
+		padding-top:auto;
+		padding-bottom:auto;
+		margin-right:auto;
+		margin-left: 20px;
+		width:90px;
+		height:45px;
+		float:left;	
+
+	}
+
+
+	#header{
+		width:80%;
+		max-width:480px;
+		height:1650px;
+		margin-left:auto;
+		margin-right:auto;
+
+	}
+
+	#img1{
+		width:100%;
+		height:200px;
+		border:solid 1px;
+		background-image:url('../Imagens/uno_2017.jpg');
+		background-size:320px;
+
+	}
+
+	#faixa{
+		width:100;
+		height:650px;
+
+	}
+
+	#faixa2{
+		width:100%;
+		height:400px;
+
+	}
+
+	#img_uno{
+		width:100%;
+		height:350px;
+		background-image:url('../Imagens/uno.png');
+		float:left;
+
+	}
+
+	#txt_uno{
+		width:100%;
+		height:350px;
+		float:left;
+	}
+
+	#titulo_uno{
+		width:100%;
+		height:80px;
+		margin-top:20px;
+		font-family:verdana;
+		text-align:center;
+
+
+	}
+
+	#preco_uno{
+		width:100%;
+		height:80px;
+		margin-top:80px;
+		font-family:verdana;
+		text-align:center;
+
+	}
+
+	#faixa3{
+		width:100%;
+		height:600px;
+		background-color:black;
+	}
+
+	#img-liveon{
+		width:100%;
+		height:600px;
+		background-image:url('../Imagens/liveon.png');
+		background-size:100%;
+		margin-top:20px;
+		padding-top: 20px;
+	}
+
+	#titulo{
+		margin-top:10px;
+		font-family:verdana;
+		width:85%;
+		height:20%;
+		margin-right:0px;
+		text-align:justify;
+		color:white;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
+	intem-menu:a{
+	 color: #ffffff;
+	 text-decoration:none;
+	}
+
+	#footer{
+		width:100%;
+		height:65px;
+		background-color:red;
+		text-align:center;
+		padding-top:15px;
+	}
+
+	#txt-rodape{
+		width:300px;
+		height:30px;
+		margin:auto;
+		margin-bottom: 0px;
+	}
+}

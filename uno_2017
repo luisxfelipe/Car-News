@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>Home Carros</title>
+		<link rel="stylesheet" type="text/css" href="CSS/uno_2017.css">
+		<meta charset="utf-8"> 
+	</head>
+	<body>
+		<div id="main">
+			<div id="banner">
+				<div id="icone-menu">
+				
+				</div>	
+				<div id="div-menu">
+					<div class="item_menu">
+						<p> FIAT </p>
+					</div>
+					<div class="item_menu">
+						<p> DODGE </p>
+					</div>
+					<div class="item_menu">
+						<p> TOYOTA </p>
+					</div>
+					<div class="item_menu">
+						<p> HONDA </p>
+					</div>
+				</div>
+				
+			</div>
+			<div id="subconteudo">
+				
+			
+			</div>
+			<div id="conteudo">
+				<div id="faixa">
+					<div id='img1'>
+					</div>
+				</div>
+				<div id="faixa2">
+					<div id='img_uno'>
+					</div>
+					<div id='txt_uno'>
+						<div id="titulo_uno">
+							<h2> UNO 2017  </h2>
+						</div>
+						<div id="preco_uno">
+							<h4> APARTIR DE R$38.990 A VISTA  </h4>
+						</div>
+					</div>
+					
+				</div>
+				<div id="faixa3">
+					<div id='img-liveon'>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Home Carros</title>
+		<link rel="stylesheet" type="text/css" href="CSS/home_carros.css">
+		<meta charset="utf-8" > 
+	</head>
+	<body>
+		<div id="main">
+			<div id="banner">
+				<a href="home_carros.html">
+				<div id="nome"> <h1>CAR NEWS</h1> </div>
+				</a>
+				<div id="icone-menu">
+				
+				</div>
+				<div id="nav">
+					<div class="item_menu">
+						<a href="uno_2017.html">
+						<p> FIAT </p>
+						</a>
+					</div>
+					<div class="item_menu">
+						<a href="peugot.html">
+						<p> PEUGOT </p>
+						</a>
+					</div>
+					<div class="item_menu">
+						<a href="bugatti.html">
+						<p> BUGATTI </p>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+			<div id="subconteudo">
+				
+			
+			</div>
+			<div id="header">
+			  <div id="slide">
+					<div class="imagem" >
+					  <img class="mySlides" src="Imagens/Civic.jpg" alt="Honda Civc">
+					  
+					  <img class="mySlides" src="Imagens/images.jpg" alt="Prius">
+					  
+					  <img class="mySlides" src="Imagens/Uno.jpg" alt="Uno">
+					</div>
+
+					<script>
+						var myIndex = 0;
+						carousel();
+
+						function carousel() {
+							var i;
+							var x = document.getElementsByClassName("mySlides");
+							for (i = 0; i < x.length; i++) {
+							   x[i].style.display = "none";  
+							}
+							myIndex++;
+							if (myIndex > x.length) {myIndex = 1}    
+							x[myIndex-1].style.display = "block";  
+							setTimeout(carousel, 5000); // Change image every 2 seconds
+						}
+					</script>
+
+				</div>
+				
+			  <div id="conceitos">
+			    <p> Conceitos </p>
+
+			    <div id="conteudo-conceitos"></div>
+		      </div>		      
+<div id="lancamentos">
+  <div id="text1">
+	    <h3> Instinct </h3>
+					  <p> O PEUGEOT Instinct Concept foi desenvolvido seguindo um único conceito: liberdade. Liberdade para escolher o seu modo de direção e as sensações que o acompanham.</p>
+					  
+				  </div>
+					<div id="carro">
+						<div id="img">
+							<p> Camary </p>
+						</div>
+					</div>
+					
+					<div id="carro2">
+						<div id="img2">
+							<p> BMW 750li </p>
+						</div>
+					</div>
+					<div id="carro3">
+						<div id="img3">
+							<p> Audi A4 </p>
+						</div>
+					</div>
+					<div id="carro4">
+						<div id="img4">
+							<p> Hyundai Azera </p>
+						</div>
+					</div>	
+					
+			  </div>
+				
+			</div>
+			<div id="footer">
+				<div id="txt-rodape">
+					<p>© COPYRIGHT 2017</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
